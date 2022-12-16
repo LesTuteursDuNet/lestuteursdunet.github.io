@@ -1,0 +1,98 @@
+*
+{
+	box-sizing: border-box;
+}
+#entete
+{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	height: 15%;
+	width: 100%;
+	font-family: Agency FB;
+	font-size: 3.5em;
+	text-transform: uppercase;
+	padding: 13px;
+	text-align: center;
+	color: white;
+	background-color: black;
+	border: solid white;
+	border-width: 2px 2px 0px 2px;
+}
+#menu
+{
+	position: absolute;
+	left: 0px;
+	top:15%;
+	background-color: black;
+	color: white;
+	height: 6%;
+	width: 100%;
+	text-align: center;
+	border: solid white;
+	border-width: 2px 2px 0px 2px;
+}
+#menu ul, #menu ul li
+{
+	display: inline;
+}
+#menu ul li a
+{
+	display: inline-block;
+	color: white;
+	margin: 0px;
+	padding: 10px;
+	height: 100%;
+	font-weight: bold;
+	text-decoration: none;
+	border-left: solid white 2px;
+}
+#menu ul li:last-child a
+{
+	border-right: solid white 2px;
+}
+#corps
+{
+	position: absolute;
+	left: 0px;
+	top: 21%;
+	height: 74%;
+	width: 100%;
+	padding: 10px;
+	border: solid black;
+	border-width: 0px 2px;
+}
+.titre
+{
+	font-family: Comic Sans MS;
+	text-align: center;
+	margin: 10px;
+}
+#corps p
+{
+	line-height: 1.5;
+	text-align: justify;
+}
+#pied
+{
+	position: absolute;
+	left: 0px;
+	bottom: 0px;
+	height: 5%;
+	width: 100%;
+	padding: 5px;
+	text-align: center;
+	font-weight: bold;
+	border: solid white;
+	color: white;
+	background-color: black;
+	border-width: 2px 2px 2px 2px;
+}
+#menu a:focus, #menu a:hover
+{
+	border-bottom: solid 5px crimson;
+}
+#menu a:focus
+{
+	border-bottom: solid 5px green;
+}
